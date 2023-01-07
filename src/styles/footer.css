@@ -1,0 +1,11 @@
+.footer {
+  padding: 50px 0px;
+  background: #eeeaff;
+}
+
+.footer-data-items {
+  margin-top: 30px;
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,136 @@
+.display-grid-data{
+  display: flex;
+  justify-content: space-around;
+  column-gap: 200px;
+  
+}
+.div-left-side{
+  width:400px;
+}
+.div-left-side-p{
+  width: 300px;
+  font-weight: 900;
+  padding-left: 5px;
+  border-left: 5px solid var(--primary-color);
+}
+.div-right-side-p{
+  width: 280px;
+  font-weight: 900;
+  padding-left: 5px;
+  border-left: 5px solid var(--primary-color);
+}
+.div-left-side-p2{
+  margin-top: 40px;
+  width: 300px;
+  font-weight: 900;
+  padding-left: 5px;
+  border-left: 5px solid var(--primary-color);
+}
+.div-data-flex-item{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+.div-data-flex-item2{
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 300px;
+  border-radius: 10px;
+  gap: 10px;
+  margin-top: 40px;
+  background-color: var(--primary-color);
+}
+.time-data-back2{
+  font-size: 10px;
+}
+.vector-img{
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+.vector-img2{
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  background-color: white;
+  border-radius: 10px 0 0 10px;
+  
+}
+
+.div-data-start-items{
+  font-weight: 700;
+  width: 220px;
+}
+.time-data-back{
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 10px;
+}
+.vector-img-data{
+  padding: 6px;
+  border: 1px solid var(--primary-color);
+  border-radius: 40%;
+  width: 50px;
+
+}
+.hr_line_pricing-end {
+  position: relative;
+  
+  margin-top: 20px;
+  top: 0px;
+  border: none;
+  height: 6px;
+  background: var(--primary-color);
+  margin-bottom: 6px;
+}
+.time-data-back-end-data{
+  color: rgb(30, 27, 27);
+  font-weight: 900;
+  padding-left: 20px;
+}
+.div-data-start-items-data{
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+  width: 300px;
+}
+.div-right-ul-section{
+  margin-top: 20px;
+  padding-left: 15px;
+}
+.li-item-data{
+  color: rgb(153, 150, 150);
+}
+.ul-text-data-item-text{
+  margin-top: 20px;
+}
+.input-end-data{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.input-field-data-email{
+  padding: 8px;
+  border-radius: 5px 0 0 0;
+  border: none;
+  background-color: gainsboro;
+}
+.img-email-button{
+  width: 26px;
+}
+.input-end-data ::placeholder{
+  color: gray;
+
+  font-size: 12px;
+}
+.img-test-circle{
+  position: relative;
+  top: -50px;
+  left: 20%;
+}
+.img-data-middle-test{
+  position: absolute;
+  right: 50%;
+  width: 30px;
+}
