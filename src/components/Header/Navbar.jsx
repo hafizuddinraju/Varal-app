@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import '../../styles/Navbar.css'
+import logo from '../../assets/photos/logo.png'
 const Navbar = () => {
     // const menu = document.querySelector(".menu-list");
     // const menuBtn = document.querySelector(".menu-btn");
@@ -14,7 +15,7 @@ const Navbar = () => {
         <nav className='navbar'>
             <div className='content'>
                 <div className='logo'>
-                    <a href="/">Coding</a>
+                    <img src={logo} alt="" />
 
                 </div>
                 <ul className={active ? "menu-list navbar activeD":"menu-list "}>

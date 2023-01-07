@@ -5,7 +5,7 @@
     padding:  0px 30px;
 }
 .navbar{
-    background: #1b1b1b;
+    background: white;
     position: fixed;
     z-index: 5;
     width: 100%;
@@ -20,35 +20,36 @@
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo a{
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
+.navbar .logo img{
+    width: 100px;
+    margin-left: 40px;
 }
 .navbar .menu-list{
     display: inline-flex;
 }
 .menu-list li{
-    color: white;
+    color: rgb(34, 33, 33);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 25px;
     padding: 10px;
+    cursor: pointer;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 .menu-list li:hover{
-    color: cyan;
+    color: var(--primary-color)
 }
 .navbar-btn{
     background: var(--primary-color);
     padding: 10px;
+    color: white;
+    font-size: 15px;
     margin-top: -5px;
     border-radius: 5px;
 }
 .icon{
-    color: white;
+    color: rgb(28, 27, 27);
     font-size: 20px;
     cursor: pointer;
     display: none;
@@ -69,7 +70,7 @@
         height: 100vh;
         width: 100%;
         max-width: 400px;
-        background: #222;
+        background: rgb(248, 247, 247);
         display: block;
         margin-top: 90px;
         padding: 40px 0;
