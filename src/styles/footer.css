@@ -12,9 +12,11 @@
 }
 @media (max-width: 576px){
   .footer {
-    padding: 50px 0px;
+    padding-top: 50px;
+    padding-left: 30px;
+    margin: 0% 0% 0% 7%;
     background: #eeeaff;
-    width: 100%;
+    
   }
   .footer-data-items {
    
@@ -26,9 +28,10 @@
 }
 @media (min-width: 577px) and (max-width: 868px){
   .footer {
-    padding: 50px 0px;
+    padding-top: 50px;
+    padding-left: 30px;
+    margin: 0% 0% 0% 7%;
     background: #eeeaff;
-    width: 100%;
   }
   .footer-data-items {
    
