@@ -1,6 +1,7 @@
 .footer {
   padding: 50px 0px;
   background: #eeeaff;
+  
 }
 
 .footer-data-items {
@@ -8,4 +9,33 @@
   text-align: center;
   color: #777;
   font-size: 0.9rem;
+}
+@media (max-width: 576px){
+  .footer {
+    padding: 50px 0px;
+    background: #eeeaff;
+    width: 100%;
+  }
+  .footer-data-items {
+   
+    margin-top: 30px;
+    text-align: center;
+    color: #777;
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 577px) and (max-width: 868px){
+  .footer {
+    padding: 50px 0px;
+    background: #eeeaff;
+    width: 100%;
+  }
+  .footer-data-items {
+   
+    margin-top: 30px;
+    text-align: center;
+    color: #777;
+    font-size: 0.9rem;
+  }
+
 }

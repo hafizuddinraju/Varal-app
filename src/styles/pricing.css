@@ -213,3 +213,106 @@
 .pricing__item-02 .services ul li span i {
   color: var(--primary-color);
 }
+@media (max-width: 576px){
+  .pricing__wrapper {
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 2rem;
+  }
+  .pricing__top {
+    width: 100%;
+    
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .pricing__top .section__title_head{
+    color: var(--heading-color);
+    font-family: var(--headline-font);
+    font-weight: 800;
+    padding-bottom: 50px;
+    width: 100%;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+  .container{
+    width: 100%;
+    
+  }
+  
+  .pricing__item {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 80%;
+    background: #fff;
+  }
+  .img-data-right-alien{
+    display: none;
+  }
+  .pricing__item2121 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 30px;
+    background: var(--primary-color);
+  }
+  .pricing__top .section__title_head{
+    color: var(--heading-color);
+    font-family: var(--headline-font);
+    font-weight: 800;
+    padding-bottom: 50px;
+    width: 100%;
+    font-size: 20px;
+  }
+  .img-position-circle{
+    position: relative;
+    left:70%;
+    top: -10px;
+  }
+
+}
+@media (min-width:577px)and (max-width: 868px){
+  .pricing__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 2rem;
+  }
+  .container{
+    width: 100%;
+  }
+  .pricing__item {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 60%;
+    background: #fff;
+  }
+  .img-data-right-alien{
+    display: none;
+  }
+  .pricing__item2121 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+    width: 60%;
+    margin-bottom: 30px;
+    background: var(--primary-color);
+  }
+  .pricing__top .section__title_head{
+    color: var(--heading-color);
+    font-family: var(--headline-font);
+    font-weight: 800;
+    padding-bottom: 50px;
+    width: 100%;
+    font-size: 20px;
+  }
+  .img-position-circle{
+    position: relative;
+    left:70%;
+    top: -10px;
+  }
+}

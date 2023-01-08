@@ -19,8 +19,6 @@ const Start = () => {
         <img className="img-icon-start_left" src={Ellipse211} alt="" />
         <div className="start__wrapper">
           <div className="div_left_start"
-          data-aos="fade-right"
-          data-aos-duration="1500"
           >
             <p className="text-learn">Learn the ways in which you can benefit
               from a UAE/Offshore Company. Then get
@@ -62,11 +60,11 @@ const Start = () => {
           </div>
 
           <div
-            className="div_left"
-            data-aos="fade-left"
-            data-aos-duration="1500"
-          >
-             <div className="card_items_data">
+            className="div_left">
+             <div className="card_items_data"
+             data-aos="fade-right"
+             data-aos-duration="1500"
+             >
               <div className="img-place">
 
                 <img src={Group} alt="" />

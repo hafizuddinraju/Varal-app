@@ -10,7 +10,7 @@ import Ellipse122 from "../../assets/photos/Ellipse122.png";
 const Exercises = () => {
   return (
     <section id="schedule">
-      <div className="container exercise__container">
+      <div className="container">
         <div className="exercise__top">
           <img className="img_top_position" src={Ellipse122} alt="" />
           <img className="img_position" src={Group100} alt="" />

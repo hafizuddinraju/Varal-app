@@ -121,7 +121,7 @@ export default function Testimonial() {
 
              
 
-          <div>
+          <div className="div-right-side">
           <div className="div-right-side-p"
            data-aos="fade-left"
            data-aos-duration="1500"
